@@ -501,10 +501,12 @@ label {
     }
 }
 
+
+/*
 .customar-padding {
     padding-top: 100px;
     padding-bottom: 93px
-}
+}*/
 
 @media only screen and (min-width:992px) and (max-width:1200px) {
     .customar-padding {
@@ -3470,6 +3472,37 @@ h3 {
         padding: 80px 0 50px
     }
 }
+.map-responsive{
+
+    overflow:hidden;
+
+    padding-bottom:56.25%;
+
+    position:relative;
+
+    height:0;
+
+}
+
+.map-responsive iframe{
+
+    left:0;
+
+    top:0;
+
+    height:100%;
+
+    width:100%;
+
+    position:absolute;
+
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    .map-responsive iframe{
+        height: auto;
+        width: auto;
+    }
+} 
 
 .mfp-bg {
     top: 0;
